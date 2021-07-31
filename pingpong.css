@@ -1,0 +1,30 @@
+#paddle1 {
+    position:absolute;left:0px;top:460px;width:30px;height:150px;background-color: red; border-radius: 50%;
+}
+
+#paddle2 {
+    position:absolute;right:0px;top:460px;width:30px;height:150px;background-color:red; border-radius: 50%;
+}
+
+#ball {
+    position:absolute;left:820px;top:510px;width:25px;height:25px;background-color: black;border-radius:50%
+}
+
+body {
+    background-color:blue;
+}
+
+.vertical {
+    border-left: 6px dotted black;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+}
+
+
+
+.score-holder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
